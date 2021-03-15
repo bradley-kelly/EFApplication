@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{FD56806F-E381-43CB-9B4D-3C62388270D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation", "Presentation\Presentation.csproj", "{3FA98A7C-18BE-44F8-BA2F-0024426EF003}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PROCS", "PROCS", "{C9F1E13A-EBA8-4AEC-862A-212D3B1E475E}"
+	ProjectSection(SolutionItems) = preProject
+		PROCS\CREATE_Procedures.sql = PROCS\CREATE_Procedures.sql
+		PROCS\DROP_Procedures.sql = PROCS\DROP_Procedures.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD56806F-E381-43CB-9B4D-3C62388270D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD56806F-E381-43CB-9B4D-3C62388270D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD56806F-E381-43CB-9B4D-3C62388270D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD56806F-E381-43CB-9B4D-3C62388270D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA98A7C-18BE-44F8-BA2F-0024426EF003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA98A7C-18BE-44F8-BA2F-0024426EF003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA98A7C-18BE-44F8-BA2F-0024426EF003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA98A7C-18BE-44F8-BA2F-0024426EF003}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD145D89-C9FA-4014-8455-AB9FF3588E8C}
+	EndGlobalSection
+EndGlobal
